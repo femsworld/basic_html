@@ -4,9 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>About me</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="#intro">John Doe</a> |
+            <a href="#tech">Tech Stack</a> |
+            <a href="#books">Favorite Books</a> |
+            <a href="#contact">Ask Me</a>
+        </nav>
+        <h1 id="intro">John Doe</h1>
+        <div>
+            <i>Full Stack Trianee @ Integrify Oy</i><br>
+            <a href="mailto:John.Doe@integrify.io"><i>John.Doe@integrify.io</i></a><br>
+            <a href="tel:+358 4567 890"><i>+358 4567 890</i></a><br>
+            <i>Espoo, Finland</i><br />
+        </div>
+        <p>
+            I am a student at Integrify Full Stack program academy.
+        </p>
+            <h2>Cities I have lived in</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lagos</td>
+                    <td>Nigeria</td>
+                    <td>18 years</td>
+                </tr>
+                <tr>
+                    <td>Accra</td>
+                    <td>Ghana</td>
+                    <td>4 years</td>
+                </tr>
+                <tr>
+                    <td>Helsinki</td>
+                    <td>Finland</td>
+                    <td>2 years</td>
+                </tr>
+                <tr>
+                    <td>Kuopio</td>
+                    <td>Finland</td>
+                    <td>12 years</td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <main>
+        <hr>
+    <section>
+        <h2 id="tech">Tech stack</h2>
+        <ol>
+            <li>Frontend
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS/SASS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                </ul>
+            </li>
+            <li>Backend
+                <ul>
+                    <li>NodeJS</li>
+                    <li>Express</li>
+                    <li>RestAPI/GraphQL</li>
+                    <li>MongoDB/PostgreSQL</li>
+                </ul>
+            </li>
+            <li>DevOps</li>
+            <li>Bash Script</li>
+            <li>Docker</li>
+            <li>Github Actions CI/CD</li>
+            <li>Cloud Computing: AWS</li>
+            <li>Other programming languages: C#, Python</li>
+            <li>Other frameworks: Angular, NestJS, NextJS</li>
+        </ol>
+    </section>
+    <hr>
+    <section>
+        <h2 id="books">Favorite books</h2>
+        <ul>
+            <li>You must set forth at dawm - <i>Wole Soyinka</i></li>
+            <li>Things fall apart - <i>Chinua Achebe</i></li>
+            <li>Ake - Years of childhood - <i>Wole Soyinka</i></li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h2 id="contact">Contact Us</h2>
+        <form>
+            <div>
+                <label for="name">Your full name</label><br>
+                <input type="text" name="name" id="name" placeholder="John Doe">
+            </div>
+            <div>
+                <label for="email">Your email</label><br>
+                <input type="email" name="email" id="email" placeholder="john@gmail.com">
+            </div>
+            <div>
+                <label for="topic">Choose a topic</label><br>
+                <select name="topic" id="topic">
+                    <option value="debug">Debugging</option>
+                    <option value="feature">Packages</option>
+                    <option value="syntax">Syntax</option>
+                    <option value="algorithm">Algorithm</option>
+                    <option value="workflow">Workflow</option>
+                </select>
+            </div>
+            <div>
+                <label for="filename">File name containing the error</label>
+                <input type="text" name="filename" id="filename" placeholder="error.jsx">
+            </div>
+            <div>
+                <label for="content">Explain your issue in detail</label><br>
+                <textarea name="content" id="content" cols="60" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="screenshot">Add the screenshot from your codes</label>
+                <input type="file" name="screenshot" id="screenshot" accept="image/png, image/gif, image/jpeg">
+            </div>
+            <button type="submit">Submit request</button>
+        </form>
+    </section>
+     <hr>
+    </main>
+        
+    <footer>
+        <p>Visit our social media pages for more information</p>
+        <ul>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="/images/icons/insta.png" alt="instagram logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="/images/icons/facebook.png" alt="Facebook logo"
+              /></a>
+            </li>
+          </ul>
+          John Doe Production &copy;
+    </footer>
 </body>
 </html>
