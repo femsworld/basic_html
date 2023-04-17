@@ -1,5 +1,4 @@
 # Introduction to basic HTML
-
 Practice Git CLI, basic HTML elements and build short introduction about yourself.
 
 ***Clone the repo***
@@ -7,7 +6,6 @@ Practice Git CLI, basic HTML elements and build short introduction about yoursel
 https://github.com/femsworld/fs15_1-basic-html.git
 ```
 ## Content of the website
-
 ```
 1.	My name and contact details
 2.	Cities I have lived in.
@@ -21,7 +19,14 @@ https://github.com/femsworld/fs15_1-basic-html.git
 ```
 ## Project Structure
 ```
-
+│   homepage.html
+│   index.html
+│   readme-example.png
+│   README.md
+│   sample.text
+│   
+└───images
+    └───icons
 ```
 ## Result
 Image showing the Readme page
